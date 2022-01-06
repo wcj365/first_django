@@ -43,10 +43,16 @@ This is my first Django web project.
 > A project can contain multiple apps. An app can be in multiple projects.
 
 - `$ python manage.py startapp pools`
+## Step 4 - Follow the Django tutorial
+
+- https://docs.djangoproject.com/en/4.0/intro/tutorial01/
+
 
 ## Django's Model-View-Template (MVT) Architecture
 
 ![](django_mvt.jpg)
+
+Source: https://techvidvan.com/tutorials/djangos-mvt-architecture/
 
 ## Django Project Structure
 
