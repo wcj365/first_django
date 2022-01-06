@@ -43,11 +43,19 @@ This is my first Django web project.
 > A project can contain multiple apps. An app can be in multiple projects.
 
 - `$ python manage.py startapp pools`
+- Open page http://127.0.0.1:8000/polls will show "Page not found" error  
+  
 ## Step 4 - Follow the Django tutorial
 
 - https://docs.djangoproject.com/en/4.0/intro/tutorial01/
 
+## Step 5 - Create Database
 
+- `$ python manage.py migrate`
+
+## Step 6 - Create an Admin user
+
+- `python manage.py createsuperuser`
 ## Django's Model-View-Template (MVT) Architecture
 
 ![](django_mvt.jpg)
