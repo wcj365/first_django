@@ -25,7 +25,7 @@ This is my first Django web project.
 - Verify Django installation
   - `$ python -m django --version
 
-## Step 2 - Create the first_website Django web project
+## Step 2 - Create the Django web project
 
 - `$django-admin startproject first_website`
 - `$ cd first_website`
@@ -33,6 +33,21 @@ This is my first Django web project.
 - Don't worry about the red warning messages for now
 - Verify the server is up: http://127.0.0.1:8000/ 
   
+## Step 3 - Create a Django web application 
+
+> **Projects vs. apps**
+>
+> What’s the difference between a project and an app? An app is a web application 
+> that does something – e.g., a blog system, a database of public records or a small 
+> poll app. project is a collection of configuration and apps for a particular website.
+> A project can contain multiple apps. An app can be in multiple projects.
+
+- `$ python manage.py startapp pools`
+
+## Django's Model-View-Template (MVT) Architecture
+
+![](django_mvt.jpg)
+
 ## Django Project Structure
 
 **first_django/** (GitHub Repo Name)
