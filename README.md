@@ -69,7 +69,7 @@ Source: https://techvidvan.com/tutorials/djangos-mvt-architecture/
     - wsgi.py
     - urls.py
     - settings.py
-  - **first_webapp/**
+  - **first_webapp/** (`$ python manage.py startapp first_webapp`)
     - \_init\_.py
     - admin.py
     - apps.py
