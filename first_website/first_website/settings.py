@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-$y!0_ta+otokh(+vvt3r07=1xp9_j6d29of^j9%7##3*vdlahm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://wcj365-first-django-95wq9g44c7q44.github.dev", "localhost"]
+ALLOWED_HOSTS = ["wcj365-first-django-95wq9g44c7q44.github.dev", "localhost"]
 
+CSRF_TRUSTED_ORIGINS = ["https://wcj365-first-django-95wq9g44c7q44-8000.githubpreview.dev", "https://localhost"]
 
 # Application definition
 

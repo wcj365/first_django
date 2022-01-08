@@ -42,7 +42,7 @@ This is my first Django web project.
 > poll app. project is a collection of configuration and apps for a particular website.
 > A project can contain multiple apps. An app can be in multiple projects.
 
-- `$ python manage.py startapp pools`
+- `$ python manage.py startapp polls`
 - Open page http://127.0.0.1:8000/polls will show "Page not found" error  
   
 ## Step 4 - Follow the Django tutorial
@@ -56,6 +56,20 @@ This is my first Django web project.
 ## Step 6 - Create an Admin user
 
 - `python manage.py createsuperuser`
+
+## Step 7 - Update settings.py
+
+> ALLOWED_HOSTS = ["wcj365-first-django-95wq9g44c7q44.github.dev", "localhost"]
+>
+> CSRF_TRUSTED_ORIGINS = ["https://wcj365-first-django-95wq9g44c7q44-8000.githubpreview.dev", "https://localhost"]
+
+## Step 8 - Verify website is up
+
+- Admin Web App
+  - https://wcj365-first-django-95wq9g44c7q44-8000.githubpreview.dev/admin/
+- Polls Web App
+  - https://wcj365-first-django-95wq9g44c7q44-8000.githubpreview.dev/polls/ 
+
 ## Django's Model-View-Template (MVT) Architecture
 
 ![](django_mvt.jpg)
